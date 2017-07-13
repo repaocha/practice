@@ -7,14 +7,14 @@
 tour=[]
 height=[]
 
-hei=100.0
+h=100.0
 time=10
 for i in range(1,time+1):
     if i==1:
-        tour.append(hei)
+        tour.append(h)
     else:
-        tour.append(2*hei)
+        tour.append(2*h)
     hei /= 2
-    height.append(hei)
+    height.append(h)
 print('总长度：tour={0}'.format(sum(tour)))
 print('第10次反弹高度：%s' % (min(height)))
