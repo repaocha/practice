@@ -1,4 +1,4 @@
-#!/usr/python
+#!/usr/bin/python
 # -*- coding:UTF-8 -*-
 
 #对10个数进行排序。
