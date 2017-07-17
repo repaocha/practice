@@ -6,7 +6,7 @@
 if __name__=='__main__':
     a=077
     b=a|3
-    print 'a | b is%s' % b
+    print 'a | b = %s' % b
     b|=7
-    print 'a | b is%s' %b
+    print 'a | b = %s' %b
     
