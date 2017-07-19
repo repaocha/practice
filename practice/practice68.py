@@ -10,8 +10,8 @@ a=[]
 
 for i in range(n):
    a.append(int(raw_input('输入一个数字:')))
-print '开始时列表：', a
+print "开始时列表：", a
    
 f=deque(a)     #双端队列
 f.rotate(m)   #旋转队列，默认向右旋转，m为负值时向左旋转
-print '移动后列表：', list(f)
+print "移动后列表：", list(f)
